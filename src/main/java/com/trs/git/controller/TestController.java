@@ -9,7 +9,7 @@ public class TestController {
 
 	@RequestMapping("test")
 	public Object test() {
-		
+		System.err.println("成员2修改的内容");
 		return "测试控制器";
 	}
 }
